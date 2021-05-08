@@ -1,3 +1,7 @@
-p {
-    color: red;
-  }
+html {
+    font-family: "Aladin", cursive; /*from Google fonts*/
+}
+
+body {
+    font-size: 20px;
+}
