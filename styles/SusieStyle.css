@@ -31,3 +31,30 @@ ul {
     width: 300px;
     text-align: left;
 }
+
+button {
+	display: inline-block;
+    width: 100%;
+	padding: 20px 0;
+	background-color: #6227c185;    /*net als html*/
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: inherit;
+	font-family : inherit;		      /*handig omdat anders input type="button" een andere standaard font aanneemt dan de body*/
+}
+
+button:hover {
+    background-color: #6227c199; 	/*net als h1*/
+}
+
+.collapsible-content {
+    display: none;                    /*hidden by default*/
+    background-color: #6227c161;    /*net als html*/
+    width: 100%;
+    padding: 20px 0;
+}
+
+.collapsible-content.open {           /*open wordt in JS getoggled*/
+    display: inline-block;
+}
